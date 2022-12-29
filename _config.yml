@@ -4,3 +4,15 @@ description: ""
 permalink: "/stories/:title"
 url: https://aritra93.github.io
 relative_permalinks: false
+
+
+# build settings
+#exclude: ["script", "vendor", "bower.json", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json", "node_modules"]
+markdown: kramdown
+plugins:
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jekyll-octicons
